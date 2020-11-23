@@ -1,0 +1,60 @@
+﻿生成启动时间为 2020/8/26 10:39:46。
+     1>项目“G:\precomputation\PrecomputationCode\curve\curve.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /IF:\BinaryScalarMultiplication\curve /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\precomputation\PrecomputationCode\x64\Release\curve.exe" /INCREMENTAL:NO /NOLOGO miracl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"G:\precomputation\PrecomputationCode\x64\Release\curve.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\precomputation\PrecomputationCode\x64\Release\curve.lib" /MACHINE:X64 x64\Release\big.obj
+         x64\Release\complex.obj
+         x64\Release\ec2.obj
+         x64\Release\ecc.obj
+         x64\Release\ecn.obj
+         x64\Release\floating.obj
+         x64\Release\flpoly.obj
+         x64\Release\main.obj
+         x64\Release\poly.obj
+         x64\Release\preComputation.obj
+         x64\Release\zzn.obj
+         miracl.lib
+         正在生成代码
+     1>g:\precomputation\precomputationcode\curve\main.cpp(348): warning C4700: 使用了未初始化的局部变量“negativeLD”
+         1 of 152 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+     1>miracl.lib(mrcore.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrcore.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrround.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrround.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbits.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrbits.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth2.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrarth2.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio2.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrio2.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth0.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrarth0.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrpower.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrpower.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrstrong.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrstrong.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrec2m.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrec2m.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth1.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrarth1.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmonty.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrmonty.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrprime.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrprime.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrarth3.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrarth3.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrxgcd.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrxgcd.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mralloc.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mralloc.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsroot.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrsroot.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrflash.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrflash.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgcd.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrgcd.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrfast.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrfast.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrlucas.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrlucas.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrrand.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrrand.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrcurve.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrcurve.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrgf2m.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrgf2m.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrjack.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrjack.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrmuldv.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrmuldv.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrbuild.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrbuild.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrio1.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrio1.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrshs.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrshs.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrsmall.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrsmall.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>miracl.lib(mrscrt.obj) : warning LNK4099: 未找到 PDB“miracl.pdb”(使用“miracl.lib(mrscrt.obj)”或在“G:\precomputation\PrecomputationCode\x64\Release\miracl.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         curve.vcxproj -> G:\precomputation\PrecomputationCode\x64\Release\curve.exe
+     1>已完成生成项目“G:\precomputation\PrecomputationCode\curve\curve.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:08.47
